@@ -44,9 +44,3 @@ Example blocked log entry:
 ```json
 {"timestamp":"2026-05-27T05:00:00+00:00","project_path":"/work/project","rule":"rm-rf","reason":"recursive forced removal with rm is blocked","command":"rm -rf dist"}
 ```
-
-## Test
-
-```bash
-python3 -m unittest discover -s tests
-```
